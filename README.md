@@ -1,3 +1,5 @@
+Projeto para academia || imersão DEV alura
+
 ## **README.md: Seu Guia Rápido para a Academia Fest Dance**
 
 ### **O que é essa aplicação?**
