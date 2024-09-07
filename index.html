@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        .youtube-link {
+            display:flex;
+            align-items:center;
+        }
+
+        .youtube-icon {
+            width: 20px;
+            margin-right: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Academia Fest Dance</title>
+    <link rel="icon" href="iconefest.ico">
+</head>
+<body>
+    <header>
+        <h1>Academia Fest Dance</h1>
+    </header>
+    <main>
+        <section>
+        <input type="text" placeholder="Digite a aula que deseja assistir" id="campo-pesquisa">
+        <button onclick="pesquisar()">Pesquisar</button>
+        </section>  
+        <section class="resultados-pesquisa" 
+        id="resultados-pesquisa">   
+        </section>
+
+    </main>
+    <footer>
+        <p>
+        email: academiafestdance@gmail.com | telefone: (98)9 9151-2342</p>
+        <p>2024 - Academia Fest Dance. Todos os direitos reservados</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
